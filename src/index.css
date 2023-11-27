@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.etalon {
+  background: aqua;
+}
+
+.react-tel-input .form-control {
+  background: #1e1f22;
+  outline: none;
+  border: 1px solid #555558;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.react-tel-input .flag-dropdown {
+  border-radius: 50px;
+  background: #1e1f22;
+  height: 40px;
+  top: 7px;
+  left: 5px;
+  border: none;
+}
+
+.react-tel-input .flag-dropdown.open {
+  border-radius: 50px;
+  background: #1e1f22;
+}
+
+.react-tel-input .flag-dropdown .selected-flag {
+  background: #1e1f22;
+  border-radius: 50px;
+}
+
+.react-tel-input .flag-dropdown .selected-flag.open {
+  background: #1e1f22;
+  border-radius: 50px;
+}
+
+.react-tel-input .flag-dropdown .selected-flag:hover {
+  border-radius: 50px;
+  background: #1e1f22;
+}
+
+.react-tel-input .country-list {
+  background: #1e1f22;
+}
+
+.opt-container {
+  @apply flex justify-between gap-2;
+}

@@ -1,0 +1,16 @@
+.otp-input-container {
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.otp-single-input {
+  background: #1e1f22;
+  border: 1px solid #797878;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px !important;
+  font-weight: bold;
+  color: #797878;
+  outline: none;
+}

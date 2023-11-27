@@ -1,10 +1,16 @@
-function App() {
+import { LogIn } from "./components/LogIn.tsx";
+import { Route, Routes } from "react-router-dom";
+import { Content } from "./components/Content.tsx";
 
-    return (
-        <div className="">
-            Hello world!
-        </div>
-    );
+function App() {
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<LogIn />} />
+        <Route path="content" element={<Content />} />
+      </Routes>
+    </div>
+  );
 }
 
-export default App
+export default App;
